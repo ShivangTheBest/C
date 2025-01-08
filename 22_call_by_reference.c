@@ -8,8 +8,8 @@
 
 #include <stdio.h>
 
-// Function definition
-int sum(int* a, int* b) {
+int sum(int* a, int* b)  // Function definition
+{
     *a = 6; // Modify the value at the address pointed to by a
     return (*a + *b); // Return the sum of the values pointed to by a and b
 }

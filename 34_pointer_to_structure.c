@@ -12,9 +12,11 @@ int main()
 {
     struct employee e1;
     e1.code = 555;
+    e1.salary = 17.5;
     struct employee *ptr;
     ptr = &e1;  //ptr made for an employee, and not just for an employee's code
-    printf("%d", (*ptr).code);  //-> known as dereferencing
+    printf("%d\n", (*ptr).code);  //-> known as dereferencing
+    printf("%f\n", (*ptr).salary);
 
     return 0;
 }

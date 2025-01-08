@@ -1,5 +1,5 @@
 /* Typedef keyword:
-We can use the typedef keyword to create an alias name for data types in C. This can be useful to make the code more readable and easier to maintain. For example, we can create an alias for the struct employee as emp_t using the typedef keyword. This allows us to use emp_t instead of struct employee when declaring variables of that type. Here's an example:
+We can use the typedef keyword to create an alias name for data types in C. This can be useful to make the code more readable and easier to maintain. For example, we can create an alias for the struct employee as Emp using the typedef keyword. This allows us to use Emp instead of struct employee when declaring variables of that type. Here's an example:
 */
 
 #include <stdio.h>

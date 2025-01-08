@@ -1,11 +1,12 @@
-#include <stdio.h>
-
 /*
  * Call by Reference in C
  
  * In C, call by reference allows a function to modify the actual values of the arguments.
  * This is achieved by passing the addresses (pointers) of the variables to the function.
 */
+
+
+#include <stdio.h>
 
 // Function definition
 int sum(int* a, int* b) {
